@@ -1,0 +1,12 @@
+CREATE SEQUENCE book_id ;
+
+
+CREATE TABLE book
+( id numeric(10,0) NOT NULL DEFAULT nextval('book_id'),
+  title text,
+  author text,
+  publisher text,
+  country text,
+  CONSTRAINT book_pk PRIMARY KEY (id)
+) ;
+

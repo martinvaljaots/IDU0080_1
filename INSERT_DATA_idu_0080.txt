@@ -1,0 +1,8 @@
+
+
+INSERT INTO book (title, author, publisher, country)
+VALUES ('Rehepapp','Andrus Kivir2hk','Varrak','Eesti');
+
+
+INSERT INTO book (title, author, publisher, country)
+VALUES ('Vanamees ja meri','Ernest Hemingway','Charles Scribners Sons','Ameerika Yhendriigid');
